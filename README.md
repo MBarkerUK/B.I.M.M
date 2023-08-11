@@ -15,30 +15,19 @@ B.I.M.M provides a feature to merge two mod preset files into a single file. Thi
 1. **Extracting Mods from Mod Preset**
    To extract and list mods from a mod preset HTML file, use the following command:
 
-   ```powershell
-   .\bimm.ps1 -extract "path_to\mod_preset.html"
+```powershell
+   .\BIMM-Windows.ps1"
+```
 This will display a list of mods present in the specified mod preset file.
 
 Merging Mod Presets
 To merge two mod preset HTML files, use the following command:
 
-powershell
 Copy code
-.\bimm.ps1 -merge "path_to\mod_preset_1.html" "path_to\mod_preset_2.html"
+```powershell
+.\BIMM-Merged-Windows.ps1"
+```
 This will create a new mod preset file that contains the combined list of mods from both input files.
-
-Getting Started
-Clone the B.I.M.M repository:
-
-bash
-Copy code
-git clone https://github.com/your-username/BIMM.git
-Navigate to the project directory:
-
-bash
-Copy code
-cd BIMM
-Execute the B.I.M.M script with appropriate arguments as explained in the "How to Use" section.
 
 Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to submit a pull request or open an issue.
