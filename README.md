@@ -20,16 +20,16 @@ B.I.M.M provides a feature to merge two mod preset files into a single file. Thi
 ```
 This will display a list of mods present in the specified mod preset file.
 
-Merging Mod Presets
-To merge two mod preset HTML files, use the following command:
+2. **Merging Mod Presets**
+   To merge two mod preset HTML files, use the following command:
 
 ```powershell
 .\BIMM-Merged-Windows.ps1"
 ```
 This will create a new mod preset file that contains the combined list of mods from both input files.
 
-Contributing
+## Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to submit a pull request or open an issue.
 
-License
+## License
 This project is licensed under the [GNU General Public License v3.0](LICENSE).
